@@ -1,0 +1,67 @@
+syntax = "proto3";
+package grpcCalculator;
+
+
+//unary, nested class
+message SumInput{
+	int32 firstInt = 1;
+	int32 secondInt = 2;
+}
+
+message SumRequest {
+	SumInput sumInput = 1;
+}
+
+message SumResponse {
+	int32 result = 1;
+}
+
+//server stream, no nested class
+message ManyDividersRequest {
+	int32 request =1;
+}
+
+message ManyDividersResponse {
+	int32 response = 1;
+}
+
+
+//client stream, usage of nested class for the lulz
+message RequestNumber{
+	int32 number =1;
+}
+
+message LongAverageRequest{
+	RequestNumber requestNumber = 1;
+}
+
+message LongAverageResponse{
+	double responseNumber = 1;
+}
+
+//bidi
+message MaxNumberRequest{
+	int32 requestNumber =1;
+}
+
+message MaxNumberResponse{
+	int32 responseNumber=1;
+}
+
+
+service CalculatorService {
+
+	//unary
+	rpc SumTwoIntegers (SumRequest) returns (SumResponse) {};
+
+	//server stream
+	rpc BreakIntoSections (ManyDividersRequest) returns (stream ManyDividersResponse) {};
+
+	//client stream
+	rpc CalculateAverage (stream LongAverageRequest) returns (LongAverageResponse) {};
+
+	//bidi stream
+	rpc GiveCurrentMaxNumber (stream MaxNumberRequest) returns (stream MaxNumberResponse) {};
+
+
+}

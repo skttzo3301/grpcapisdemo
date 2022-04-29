@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "/KpPgTXCHRIs3SiggNaxyzkWI51mpKlj0SD6Up1xLZsqAzKDgJ9LlknVTqOLn7GEaU034mHDrVyaZwafw+XHOw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Stoyan Kuklev\\Desktop\\grpc course\\GrpcCalculatorSln\\CalculatorClient\\CalculatorClient.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Stoyan Kuklev\\.nuget\\packages\\google.protobuf\\3.20.1\\google.protobuf.3.20.1.nupkg.sha512",
+    "C:\\Users\\Stoyan Kuklev\\.nuget\\packages\\grpc\\2.45.0\\grpc.2.45.0.nupkg.sha512",
+    "C:\\Users\\Stoyan Kuklev\\.nuget\\packages\\grpc.core\\2.45.0\\grpc.core.2.45.0.nupkg.sha512",
+    "C:\\Users\\Stoyan Kuklev\\.nuget\\packages\\grpc.core.api\\2.45.0\\grpc.core.api.2.45.0.nupkg.sha512",
+    "C:\\Users\\Stoyan Kuklev\\.nuget\\packages\\grpc.tools\\2.45.0\\grpc.tools.2.45.0.nupkg.sha512",
+    "C:\\Users\\Stoyan Kuklev\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,2 @@
+protomodels/GrpcCalculator.cs \
+protomodels/GrpcCalculatorGrpc.cs: ../GrpcCalculator.proto

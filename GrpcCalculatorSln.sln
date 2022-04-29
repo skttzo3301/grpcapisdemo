@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32414.318
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorServer", "CalculatorServer\CalculatorServer.csproj", "{81E75A20-9946-4CBB-980F-8C2D28317316}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorClient", "CalculatorClient\CalculatorClient.csproj", "{1695E548-3000-400B-8BB4-5F3F2D8DAE44}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "proto", "proto", "{6A4F28E7-1803-45A9-837A-8824C914B6A6}"
+	ProjectSection(SolutionItems) = preProject
+		GrpcCalculator.proto = GrpcCalculator.proto
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{81E75A20-9946-4CBB-980F-8C2D28317316}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81E75A20-9946-4CBB-980F-8C2D28317316}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81E75A20-9946-4CBB-980F-8C2D28317316}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81E75A20-9946-4CBB-980F-8C2D28317316}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1695E548-3000-400B-8BB4-5F3F2D8DAE44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1695E548-3000-400B-8BB4-5F3F2D8DAE44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1695E548-3000-400B-8BB4-5F3F2D8DAE44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1695E548-3000-400B-8BB4-5F3F2D8DAE44}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {96B68FC5-4E01-48FD-8C3E-B97C088F64DB}
+	EndGlobalSection
+EndGlobal
